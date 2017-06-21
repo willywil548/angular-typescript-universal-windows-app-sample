@@ -138,13 +138,4 @@
     <DisableFastUpToDateCheck>true</DisableFastUpToDateCheck>
   </PropertyGroup>
   -->
-  <Target Name="BeforeBuild">
-    <Command>ng build</Command>
-    <Message>Angua</Message>
-  </Target>
-  <Target Name="AfterBuild">
-  </Target>
-  <PropertyGroup>
-    <DisableFastUpToDateCheck>true</DisableFastUpToDateCheck>
-  </PropertyGroup>
 </Project>

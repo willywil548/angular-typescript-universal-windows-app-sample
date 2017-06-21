@@ -5,7 +5,7 @@
   "description": "Example project from an angular.io guide.",
   "scripts": {
     "ng": "ng",
-    "start":"ng serve",
+    "start": "ng serve",
     "serve": "ng serve",
     "build": "ng build",
     "test": "ng test",
@@ -62,7 +62,6 @@
     "karma-jasmine": "^1.0.2",
     "karma-jasmine-html-reporter": "^0.2.2",
     "karma-phantomjs-launcher": "^1.0.2",
-    "lite-server": "^2.2.2",
     "lodash": "^4.16.2",
     "phantomjs-prebuilt": "^2.1.7",
     "protractor": "~5.1.2",
