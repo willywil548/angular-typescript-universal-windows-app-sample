@@ -65,7 +65,6 @@
     </AppxManifest>
     <Content Include=".angular-cli.json" />
     <Content Include=".editorconfig" />
-    <Content Include=".gitignore" />
     <Content Include="dist\favicon.ico" />
     <Content Include="dist\inline.bundle.js" />
     <Content Include="dist\inline.bundle.js.map" />
@@ -92,7 +91,6 @@
     <Content Include="README.md" />
     <Content Include="src\app\app.component.css" />
     <Content Include="src\app\app.component.html" />
-    <Content Include="src\assets\.gitkeep" />
     <Content Include="tsconfig.json" />
     <Content Include="tslint.json" />
     <Content Include="node_modules\*" />
@@ -117,6 +115,9 @@
     <TypeScriptCompile Include="src\app\app.module.ts" />
     <TypeScriptCompile Include="src\environments\environment.prod.ts" />
     <TypeScriptCompile Include="src\environments\environment.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="src\assets\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
