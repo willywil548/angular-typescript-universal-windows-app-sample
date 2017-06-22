@@ -75,6 +75,16 @@
     <Content Include=".angular-cli.json" />
     <Content Include=".editorconfig" />
     <Content Include=".gitignore" />
+    <Content Include="dist\inline.bundle.js" />
+    <Content Include="dist\inline.bundle.js.map" />
+    <Content Include="dist\main.bundle.js" />
+    <Content Include="dist\main.bundle.js.map" />
+    <Content Include="dist\polyfills.bundle.js" />
+    <Content Include="dist\polyfills.bundle.js.map" />
+    <Content Include="dist\styles.bundle.js" />
+    <Content Include="dist\styles.bundle.js.map" />
+    <Content Include="dist\vendor.bundle.js" />
+    <Content Include="dist\vendor.bundle.js.map" />
     <Content Include="e2e\tsconfig.e2e.json" />
     <Content Include="images\LockScreenLogo.scale-200.png" />
     <Content Include="images\SplashScreen.scale-200.png" />
@@ -89,15 +99,15 @@
     <Content Include="packages.config" />
     <Content Include="protractor.conf.js" />
     <Content Include="README.md" />
-    <Content Include="src\app\app.component.css" />
-    <Content Include="src\app\app.component.html" />
-    <Content Include="src\app\dashboard\dashboard.component.css" />
-    <Content Include="src\app\dashboard\dashboard.component.html" />
-    <Content Include="src\app\hero-detail\hero-detail.component.css" />
-    <Content Include="src\app\hero-detail\hero-detail.component.html" />
-    <Content Include="src\app\heroes\heroes.component.css" />
-    <Content Include="src\app\heroes\heroes.component.html" />
-    <Content Include="src\styles.css" />
+    <Content Include="src\app\components\app\app.component.css" />
+    <Content Include="src\app\components\app\app.component.html" />
+    <Content Include="src\app\components\dashboard\dashboard.component.css" />
+    <Content Include="src\app\components\dashboard\dashboard.component.html" />
+    <Content Include="src\app\components\hero-detail\hero-detail.component.css" />
+    <Content Include="src\app\components\hero-detail\hero-detail.component.html" />
+    <Content Include="src\app\components\heroes\heroes.component.css" />
+    <Content Include="src\app\components\heroes\heroes.component.html" />
+    <Content Include="src\styles\main.css" />
     <Content Include="src\tsconfig.app.json" />
     <Content Include="src\tsconfig.spec.json" />
     <Content Include="tsconfig.json" />
@@ -106,15 +116,15 @@
   <ItemGroup>
     <TypeScriptCompile Include="e2e\app.e2e-spec.ts" />
     <TypeScriptCompile Include="e2e\app.po.ts" />
-    <TypeScriptCompile Include="src\app\app.component.ts" />
-    <TypeScriptCompile Include="src\app\app.module.ts" />
-    <TypeScriptCompile Include="src\app\dashboard\dashboard.component.ts" />
-    <TypeScriptCompile Include="src\app\hero-detail\hero-detail.component.ts" />
-    <TypeScriptCompile Include="src\app\heroes\heroes.component.ts" />
-    <TypeScriptCompile Include="src\app\routing\app-routing.module.ts" />
-    <TypeScriptCompile Include="src\app\shared\hero.service.ts" />
-    <TypeScriptCompile Include="src\app\shared\hero.ts" />
-    <TypeScriptCompile Include="src\app\shared\mock-heroes.ts" />
+    <TypeScriptCompile Include="src\app\modules\app.module.ts" />
+    <TypeScriptCompile Include="src\app\classes\hero.ts" />
+    <TypeScriptCompile Include="src\app\components\app\app.component.ts" />
+    <TypeScriptCompile Include="src\app\components\dashboard\dashboard.component.ts" />
+    <TypeScriptCompile Include="src\app\components\hero-detail\hero-detail.component.ts" />
+    <TypeScriptCompile Include="src\app\components\heroes\heroes.component.ts" />
+    <TypeScriptCompile Include="src\app\constants\mockHeroes.ts" />
+    <TypeScriptCompile Include="src\app\modules\app-routing.module.ts" />
+    <TypeScriptCompile Include="src\app\services\hero.service.ts" />
     <TypeScriptCompile Include="src\environments\environment.prod.ts" />
     <TypeScriptCompile Include="src\environments\environment.ts" />
     <TypeScriptCompile Include="src\main.ts" />
@@ -122,7 +132,10 @@
     <TypeScriptCompile Include="src\test.ts" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="dist\" />
+    <Folder Include="src\app\directives\" />
+    <Folder Include="src\app\enums\" />
+    <Folder Include="src\app\pipes\" />
+    <Folder Include="src\assets\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />

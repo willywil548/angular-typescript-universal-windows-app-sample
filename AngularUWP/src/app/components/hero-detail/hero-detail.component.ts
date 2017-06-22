@@ -3,8 +3,8 @@ import { Component, OnInit }      from '@angular/core';
 import { ActivatedRoute, Params } from '@angular/router';
 import { Location }               from '@angular/common';
 
-import { Hero }         from '../shared/hero';
-import { HeroService }  from '../shared/hero.service';
+import { Hero }         from '../../classes/hero';
+import { HeroService }  from '../../services/hero.service';
 @Component({
   selector: 'hero-detail',
   templateUrl: './hero-detail.component.html',
