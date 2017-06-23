@@ -32,7 +32,7 @@ Then in visual studio just click build and run. The app should compile fine and 
 
 Note that this command compiles the typescript and the output is directed to the `dist` directory in a bundled format. On top of that, angular also adds references to these js files in the `index.html`. Notice that the `index.html` is outside the `src` directory. This is to make sure the windows relative paths and angular relative paths remain correlated.
 
-Please add images and other assets only to the assets directory only, this helps in refering to assests as always "./assets" from root. Of course, nothing is stopping you from going else where but be safe when refering them with relative paths.
+Please add images and other assets only to the assets directory, this helps in refering to assests as always "./assets" from root. Of course, nothing is stopping you from going else where but be safe when refering them with relative paths.
 
 The app related images are present in assets/img/app directory
 
