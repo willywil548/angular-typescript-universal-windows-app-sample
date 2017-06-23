@@ -109,6 +109,8 @@
     <Content Include="src\app\components\hero-detail\hero-detail.component.html" />
     <Content Include="src\app\components\heroes\heroes.component.css" />
     <Content Include="src\app\components\heroes\heroes.component.html" />
+    <Content Include="src\app\components\sample\sample.component.css" />
+    <Content Include="src\app\components\sample\sample.component.html" />
     <Content Include="src\styles\main.css" />
     <Content Include="src\tsconfig.app.json" />
     <Content Include="src\tsconfig.spec.json" />
@@ -118,25 +120,31 @@
   <ItemGroup>
     <TypeScriptCompile Include="e2e\app.e2e-spec.ts" />
     <TypeScriptCompile Include="e2e\app.po.ts" />
-    <TypeScriptCompile Include="src\app\modules\app.module.ts" />
+    <TypeScriptCompile Include="src\app\app.module.ts" />
     <TypeScriptCompile Include="src\app\classes\hero.ts" />
+    <TypeScriptCompile Include="src\app\classes\sample.ts" />
     <TypeScriptCompile Include="src\app\components\app\app.component.ts" />
     <TypeScriptCompile Include="src\app\components\dashboard\dashboard.component.ts" />
     <TypeScriptCompile Include="src\app\components\hero-detail\hero-detail.component.ts" />
     <TypeScriptCompile Include="src\app\components\heroes\heroes.component.ts" />
+    <TypeScriptCompile Include="src\app\components\sample\sample.component.spec.ts" />
+    <TypeScriptCompile Include="src\app\components\sample\sample.component.ts" />
     <TypeScriptCompile Include="src\app\constants\mockHeroes.ts" />
+    <TypeScriptCompile Include="src\app\directives\sample\sample.directive.spec.ts" />
+    <TypeScriptCompile Include="src\app\directives\sample\sample.directive.ts" />
+    <TypeScriptCompile Include="src\app\enums\sample.enum.ts" />
     <TypeScriptCompile Include="src\app\modules\app-routing.module.ts" />
+    <TypeScriptCompile Include="src\app\modules\sample\sample.module.ts" />
+    <TypeScriptCompile Include="src\app\pipes\sample\sample.pipe.spec.ts" />
+    <TypeScriptCompile Include="src\app\pipes\sample\sample.pipe.ts" />
     <TypeScriptCompile Include="src\app\services\hero.service.ts" />
+    <TypeScriptCompile Include="src\app\services\sample\sample.service.spec.ts" />
+    <TypeScriptCompile Include="src\app\services\sample\sample.service.ts" />
     <TypeScriptCompile Include="src\environments\environment.prod.ts" />
     <TypeScriptCompile Include="src\environments\environment.ts" />
     <TypeScriptCompile Include="src\main.ts" />
     <TypeScriptCompile Include="src\polyfills.ts" />
     <TypeScriptCompile Include="src\test.ts" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="src\app\directives\" />
-    <Folder Include="src\app\enums\" />
-    <Folder Include="src\app\pipes\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\$(WMSJSProjectDirectory)\Microsoft.VisualStudio.$(WMSJSProject).targets" />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets" Condition="Exists('$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\TypeScript\Microsoft.TypeScript.targets')" />
