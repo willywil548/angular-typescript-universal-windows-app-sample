@@ -32,15 +32,17 @@ Then in visual studio just click build and run. The app should compile fine and 
 
 Note that this command compiles the typescript and the output is directed to the `dist` directory in a bundled format. On top of that, angular also adds references to these js files in the `index.html`. Notice that the `index.html` is outside the `src` directory. This is to make sure the windows relative paths and angular relative paths remain correlated.
 
-Please add images and other assets only to the assets directory only, this helps in refering to assests as always "./assets" from root. Of course nothings stopping you from going else where but be safe when refering them with relative paths.
+Please add images and other assets only to the assets directory only, this helps in refering to assests as always "./assets" from root. Of course, nothing is stopping you from going else where but be safe when refering them with relative paths.
 
 The app related images are present in assets/img/app directory
 
+
+Be sure to include all the files you added in the visual studio project. Otherwise they won't be available in the deployed app.
 ----
 
 The `src` directory contains the main app code. A directory structure has already been prescribed to help you with the onboarding. 
 
-Head on to angular docs at [Angular.io](https://angular.io) to read about building angular apps and the [UWP refernce](https://docs.microsoft.com/en-us/uwp/) for integrating universal windows apis into your apps.
+Head on to angular docs at [Angular.io](https://angular.io) to read about building angular apps and the [UWP reference](https://docs.microsoft.com/en-us/uwp/) for integrating universal windows apis into your apps.
 
 
 # Tips
