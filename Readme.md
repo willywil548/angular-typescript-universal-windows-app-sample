@@ -51,3 +51,4 @@ While using `ng generate` be sure to include the directory for the element you a
     #for modules   : ng g module modules/test   #It creates a directory by default
     #for services  : ng g service services/test/test  #It doesn't
     
+Again this is just a suggestion. You can have your own convention for maintaing the angular elements.
