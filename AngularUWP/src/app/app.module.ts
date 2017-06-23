@@ -8,8 +8,10 @@ import { HeroDetailComponent }  from './components/hero-detail/hero-detail.compo
 import { HeroesComponent }      from './components/heroes/heroes.component';
 import { HeroService }          from './services/hero.service';
 import { AppRoutingModule }     from './modules/app-routing.module';
-import { SampleDirective } from './directives/sample.directive';
-import { SamplePipe } from './pipes/sample.pipe';
+import { SamplePipe } from './pipes/sample/sample.pipe';
+import { SampleDirective } from './directives/sample/sample.directive';
+import { SampleComponent } from './components/sample/sample.component';
+
 
 @NgModule({
   imports: [
@@ -22,8 +24,9 @@ import { SamplePipe } from './pipes/sample.pipe';
     DashboardComponent,
     HeroDetailComponent,
     HeroesComponent,
+    SamplePipe,
     SampleDirective,
-    SamplePipe
+    SampleComponent,
   ],
   providers: [ HeroService ],
   bootstrap: [ AppComponent ]
