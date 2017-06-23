@@ -4,8 +4,8 @@ Angular Heroes Sample for Universal Windows
 This is a universal windows app sample built on Angular Framework (4). 
 
 # Dependencies
-node-js 6.9.5
-npm 3.10.10
+ + node-js 6.9.5
+ + npm 3.10.10
 
 #Setting Up
 This repository has a Visual studio solution (AngularUWP.sln) and the code directory. Open powershell and move to the repo.
