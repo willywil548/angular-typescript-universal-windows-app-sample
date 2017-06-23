@@ -6,6 +6,7 @@ This is a Universal Windows app sample built on Angular Framework (4).
 # Dependencies
  + node-js 6.9.5
  + npm 3.10.10
+ + Windows 10 SDK version 10586 or higher 
 
 # Setting Up
 This repository has a Visual Studio solution (AngularUWP.sln) and the code directory. Open PowerShell and move to the repo.
