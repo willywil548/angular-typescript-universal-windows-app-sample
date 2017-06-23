@@ -38,4 +38,16 @@ The app related images are present in assets/img/app directory
 
 ----
 
-The `src` directory contains the main app code. A directory structure has already been prescribed to help you with the onboarding. Head on to angular docs at [Angular.io](https://angular.io) to read about building angular apps and the [UWP refernce](https://docs.microsoft.com/en-us/uwp/) for integrating universal windows apis into your apps.
+The `src` directory contains the main app code. A directory structure has already been prescribed to help you with the onboarding. 
+
+Head on to angular docs at [Angular.io](https://angular.io) to read about building angular apps and the [UWP refernce](https://docs.microsoft.com/en-us/uwp/) for integrating universal windows apis into your apps.
+
+
+# Tips
+
+While using `ng generate` be sure to include the directory for the element you are creating, when required. `ng generate` also adds references in the app module
+
+    #for components: ng g component components/test   #It creates a directory by default
+    #for modules   : ng g module modules/test   #It creates a directory by default
+    #for services  : ng g service services/test/test  #It doesn't
+    
