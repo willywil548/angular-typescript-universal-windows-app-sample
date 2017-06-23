@@ -54,3 +54,6 @@ While using `ng generate` be sure to include the directory for the element you a
     #for services  : ng g service services/test/test  #It doesn't
     
 Again this is just a suggestion. You can have your own convention for maintaing the angular elements.
+
+# License
+[![MIT License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat)](/LICENSE)
